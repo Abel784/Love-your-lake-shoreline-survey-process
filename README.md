@@ -58,7 +58,7 @@ To create the 30m shoreline buffer i created a new shapefile and used the trace 
 - ![image](https://github.com/user-attachments/assets/7ff65f64-3fd3-42c0-afa0-263b8f0d7632)
 - Save your changes by clicking "save edits"
 - Then turn the edit mode off
-- ![image](https://github.com/user-attachments/assets/f857b99c-31c0-4b32-8bee-9a05691bda87)
+- ![image](https://github.com/user-attachments/assets/0c4c1f9e-903f-4819-945f-a68850ae403d)
 - once everything has been given a shape everything should appear on the map
 - ![image](https://github.com/user-attachments/assets/6b978f98-34d7-4922-a110-2430627d53b5)
 
