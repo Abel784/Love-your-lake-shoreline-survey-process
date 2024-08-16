@@ -1,6 +1,8 @@
 # CLARI-Project
  - Made in QGIS 3.63.3
-
+   
+  QGIS (Quantum Geographic Information System) is a free, open-source software used for mapping and spatial data analysis. It enables users to create, edit, visualize, and analyze geospatial data, supporting a wide range of file formats and databases. QGIS is popular for creating interactive maps, conducting geographic research, and managing spatial information for various applications like urban planning, environmental management, and fieldwork. It’s versatile, extensible through plugins, and can be integrated with other software and online services.
+ 
 # How To Use
   - Download Repository
   - Extract folder
