@@ -42,23 +42,23 @@ To create the 30m shoreline buffer i created a new shapefile and used the trace 
 - Once thats complete and you have created your geotagged layer right click and goto the attributes table.
 - ![image](https://github.com/user-attachments/assets/f05bc69d-7bc4-44b1-a745-07cc5144890b)
 - Click on "toggle edit" and then "add feature"
-- ![image](https://github.com/user-attachments/assets/f45809e5-afb5-4623-9119-e7ec399c6e46)
+- ![image](https://github.com/user-attachments/assets/76a95bed-6d4f-4527-8ce3-0f696eb5f6c8)
 - leave the fid field as "autogenerate"
 - click the 3 dots next to photo and select your desired photo
 - fill in the filename this can be whatever you want it to be so make it easy to identify in your attribute table
 - then fill in the longitude and latitude fields for your images location
 - You should have something like the image below
-- ![image](https://github.com/user-attachments/assets/225d13d4-13cc-4d14-af9f-5a8cac45b247)
+- ![image](https://github.com/user-attachments/assets/bd60f1bf-0284-459c-868b-055084936361)
 - make sure youve added all your photos and their latitude and longitudes before moving onto the field calculator section the shapes should be added once all photos are in the table.
 - Now we have to give the new attribute in the table a shape to appear on the map.
 - open the field calculator
-- ![image](https://github.com/user-attachments/assets/9bfb6683-af5a-4a85-aae6-56cddf9442f7)
+- ![image](https://github.com/user-attachments/assets/334e1c4d-dc00-42ee-b33c-4cd016e11418)
 - once open check off "Update existing field" and select "<geometry>" from the drop down
 - in the expression window type make_point("longitude", "latitude") this will give the object a shape at the correct location
 - ![image](https://github.com/user-attachments/assets/7ff65f64-3fd3-42c0-afa0-263b8f0d7632)
 - Save your changes by clicking "save edits"
 - Then turn the edit mode off
-- ![image](https://github.com/user-attachments/assets/13dfe264-a2b8-492b-a368-301a6e5560a0)
+- ![image](https://github.com/user-attachments/assets/f857b99c-31c0-4b32-8bee-9a05691bda87)
 - once everything has been given a shape everything should appear on the map
 - ![image](https://github.com/user-attachments/assets/6b978f98-34d7-4922-a110-2430627d53b5)
 
