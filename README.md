@@ -8,7 +8,9 @@ QGIS (Quantum Geographic Information System) is a free, open-source software use
 -**Extract Folder**
 
 -**Click `Index.html` to launch in your browser**  
+
   OR  
+  
 -**Download the raw project files for QGIS**
 
 # How It Was Made
@@ -54,27 +56,41 @@ QGIS (Quantum Geographic Information System) is a free, open-source software use
   It shows you how to import geotagged photos to your map, place them based on their longitude and latitude, and convert your geotagged images and map into a web app.
 
 # How To Manually Add Geotagged Photos
--**Follow the above tutorial until you have completed Steps 1, 2, and 3a.***(DON'T DO STEP 3, JUST 3A, unless you know the direction of the geotagged photo.)*-**Once that's complete and you have created your geotagged layer, right-click and go to the Attributes Table.**  
+-**Follow the above tutorial until you have completed Steps 1, 2, and 3a.**
+
+*(DON'T DO STEP 3, JUST 3A, unless you know the direction of the geotagged photo.)*
+
+-**Once that's complete and you have created your geotagged layer, right-click and go to the Attributes Table.**  
 - ![image](https://github.com/user-attachments/assets/f05bc69d-7bc4-44b1-a745-07cc5144890b)
   
 -**Click on "Toggle Edit" and then "Add Feature".**  
 - ![image](https://github.com/user-attachments/assets/76a95bed-6d4f-4527-8ce3-0f696eb5f6c8)
   
 -**Leave the FID field as "Autogenerate".**
+
 -**Click the three dots next to "Photo" and select your desired photo.**
+
 -**Fill in the "Filename."** This can be whatever you want it to be, so make it easy to identify in your Attribute Table.
--**Then fill in the "Longitude" and "Latitude" fields for your image's location.**-**You should have something like the image below.**  
+
+-**Then fill in the "Longitude" and "Latitude" fields for your image's location.**
+
+-**You should have something like the image below.**  
 - ![image](https://github.com/user-attachments/assets/bd60f1bf-0284-459c-868b-055084936361)
   
 -**Make sure you've added all your photos and their latitudes and longitudes before moving on to the Field Calculator section.** The shapes should be added once all photos are in the table.
--**Now, we have to give the new attribute in the table a shape to appear on the map.**-**Open the Field Calculator.**  
+
+-**Now, we have to give the new attribute in the table a shape to appear on the map.**
+
+-**Open the Field Calculator.**  
 - ![image](https://github.com/user-attachments/assets/334e1c4d-dc00-42ee-b33c-4cd016e11418)
   
--**Once open, check off "Update Existing Field" and select "<geometry>" from the dropdown.**
+-**Once open, check off "Update Existing Field" and select "geometry" from the dropdown.**
+
 -**In the expression window, type `make_point("longitude", "latitude")`.** This will give the object a shape at the correct location.
   - ![image](https://github.com/user-attachments/assets/7ff65f64-3fd3-42c0-afa0-263b8f0d7632)
   
 - **Save your changes by clicking "Save Edits".**
+  
 - **Then turn off Edit Mode.**
   - ![image](https://github.com/user-attachments/assets/0c4c1f9e-903f-4819-945f-a68850ae403d)
   
